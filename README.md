@@ -181,20 +181,6 @@ df.head()
 <tr>
   <td width=50%>
 
-### 13) Final output
-```Python
-for x in df.index:
-  if df.loc[x,"AVG"]>100:
-    df.drop(x,inplace=True)
-df
-```
-  </td>
-  <td>             
-#### OUTPUT:
-![image](https://github.com/LATHIKESHWARAN/exno1/assets/119393556/fb8391ca-d62a-4e26-a1aa-a15d27a884f9)
-</td>
-</tr>
-
-# Result
-         Thus the program for data cleaning executed successfully.
+# Result:
+  Thus the program for data cleaning executed successfully.
          
