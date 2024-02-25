@@ -201,4 +201,5 @@ df
 <tr>
   <td width=50%>
 # Result
-          <<include your Result here>>
+         Thus the program for data cleaning executed successfully.
+         
