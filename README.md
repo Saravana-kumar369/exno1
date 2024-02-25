@@ -26,7 +26,6 @@ STEP 6: Use zscore of to remove outliers
   <tr>
     <td width=50%>
 
-
 ### 1) Read and display DataFrame
 ```Python
 import pandas as pd
@@ -198,8 +197,7 @@ df
 
 </td>
 </tr>
-<tr>
-  <td width=50%>
+
 # Result
          Thus the program for data cleaning executed successfully.
          
