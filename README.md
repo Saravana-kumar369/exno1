@@ -181,6 +181,48 @@ df.head()
 <tr>
   <td width=50%>
 
+### 13) Final output
+```Python
+for x in df.index:
+  if df.loc[x,"AVG"]>100:
+    df.drop(x,inplace=True)
+df
+```
+  </td>
+  <td>
+              
+#### OUTPUT:
+
+![image](https://github.com/LATHIKESHWARAN/exno1/assets/119393556/fb8391ca-d62a-4e26-a1aa-a15d27a884f9)
+
+</td>
+</tr>
+<tr>
+  <td width=50%>
+
+### 14)Cut and paste portion of image
+```Python
+     import cv2
+     image=cv2.imread('Deepika.jpg',1)
+     image=cv2.resize(image,(400,400))
+     tag =image[150:200,110:160]
+     image[110:160,150:200] = tag
+     cv2.imshow('partimage1',image)
+     cv2.waitKey(0)
+     cv2.destroyAllWindows()
+```
+  </td>
+  <td>
+
+#### OUTPUT:
+
+![deepikasrinivasanDIPT1](https://github.com/deepikasrinivasans/COLOR_CONVERSIONS_OF-IMAGE/assets/119393935/4c37d6dd-4392-4b61-abcc-b7dfe50a886f)
+ </td>
+ </tr>
+</table>
+
+
+
 # Result:
   Thus the program for data cleaning executed successfully.
          
