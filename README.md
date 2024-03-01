@@ -203,7 +203,7 @@ df
 ### 14)Cut and paste portion of image
 ```Python
      import cv2
-     image=cv2.imread('Deepika.jpg',1)
+     image=cv2.imread('image.jpg',1)
      image=cv2.resize(image,(400,400))
      tag =image[150:200,110:160]
      image[110:160,150:200] = tag
